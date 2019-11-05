@@ -1,0 +1,40 @@
+'use strict';
+var ChartTypesEnum = {
+    BarChart: 'barChart',
+    ColumnChart: 'columnChart',
+    TargetCharts: 'targetCharts',
+    BridgeCharts: 'bridgeCharts',
+    BarCharts: 'barCharts',
+    ColumnCharts: 'columnCharts',
+    XYCharts: 'xyCharts',
+    ClusteredChart: 'clusteredChart',
+    StackChart: 'StackChart',
+    ClusteredBarChart: 'clusteredBarChart',
+    ClusteredColumnChart: 'clusteredColumnChart',
+    StackBarChart: 'stackBarChart',
+    StackColumnChart: 'stackColumnChart',
+    LineChart: 'lineChart',
+    StackLineChart: 'stackLineChart',
+    PieChart: 'pieChart',
+    AreaChart: 'areaChart',
+    StackAreaChart: 'stackAreaChart',
+    FunnelChart: 'funnelChart',
+    BubbleChart: 'bubbleChart',
+    TileChart: 'tileChart',
+    HorizontalTargetChart: 'horizontalTargetChart',
+    VerticalTargetChart: 'verticalTargetChart',
+    TreeChart: 'treeChart',
+    ComboChart: 'comboChart',
+    VerticalBridgeChart: 'verticalBridgeChart',
+    HorizontalBridgeChart: 'horizontalBridgeChart',
+    ScatterChart: 'scatterChart',
+    YearOnYearChart: 'yearOnYearChart',
+    GaugeChart: 'gaugeChart',
+    WordChart: 'wordChart',
+    Grid: 'grid',
+    LineAreaCharts: 'lineAreaCharts',
+    Map: 'map'
+};
+
+Object.freeze(ChartTypesEnum);
+exports.ChartTypesEnum = ChartTypesEnum;

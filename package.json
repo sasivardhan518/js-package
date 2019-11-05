@@ -1,0 +1,21 @@
+{
+  "name": "mm-report-data-service",
+  "version": "1.0.0",
+  "description": "Package to manage all data services for MM application.",
+  "main": "report-data-service.js",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "moment": "^2.22.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "build": "test"
+  },
+  "keywords": [
+    "RDS",
+    "rds"
+  ],
+  "author": "MM UI Team",
+  "license": "ISC"
+}
